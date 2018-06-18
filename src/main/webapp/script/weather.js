@@ -113,7 +113,7 @@ function weather(latitude, longtitude,city){
 		if(tenMinutesAgo(date) == true){
 		
 			
-			$.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longtitude+"&q="+city+"&units=metric"+
+			$.getJSON("https://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longtitude+"&q="+city+"&units=metric"+
 						"&APPID=07d2b5528b659dc8ccdbee6dac06ea40", function(data){
 
 
@@ -176,7 +176,7 @@ function weather(latitude, longtitude,city){
 	else{
 
 
-		$.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longtitude+"&q="+city+"&units=metric"+
+		$.getJSON("https://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longtitude+"&q="+city+"&units=metric"+
 				"&APPID=07d2b5528b659dc8ccdbee6dac06ea40", function(data){
 
 

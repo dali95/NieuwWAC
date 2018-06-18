@@ -31,14 +31,14 @@ body{
 
 .section1{
 	float: left;
-	width: 48%;
+	width: 100%;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 
 .section2{
 	float: left;
-	width: 48%;
+	width: 100%;
 	margin-left: 5px;
 	margin-right: 5px;
 }
@@ -170,14 +170,23 @@ th, td {
     padding: 8px;
 }
 
-
-
+#contain{
+	display: grid;
+	grid-template-columns: 500fr 5fr 500fr;
+}
+.section1{
+	grid-column: 1;
+}
+.section2{
+	grid-column: 3;
+}
 
 
 @media (max-width: 700px) {
 	
 	.section1{
 		float: none;
+		min-height: 285px;
 		width: 100%;
 		margin-left: 0px;
 		margin-right: 0px;
@@ -185,6 +194,7 @@ th, td {
 	
 	.section2{
 		float: none;
+		min-height: 200px;
 		width: 100%;
 		margin-left: 0px;
 		margin-right: 0px;
