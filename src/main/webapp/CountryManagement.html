@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Country Service</title>
+</head>
+
+
+<body>
+
+	<div id="header"><div id="header-txt">Wereld beheer</div></div>
+
+	
+	<div id="main-menu">
+		<div id="main-menu-whitespace"></div>
+		<div id="main-menu-nav">
+			
+		
+
+			
+		
+			 <div id="menu-box">
+				 <div id="menu-login" class="menu-btn">
+					 <p id="button-text">Login</p>
+				 </div>
+				 <div id="menu-toevoegen" class="menu-btn">
+					 <p id="button-text">Toevoegen</p>
+				 </div>
+					<div id="menu-item1" class="menu-btn" onclick="countryPagina()">
+					<p id="button-text" >Countries</p>
+					</div>
+				<div id="menu-services" class="menu-btn" onclick="otherServices();">
+					<p id="button-text">Index</p>
+				</div>						
+			</div>
+			
+		</div>
+		<div id="messagebox"><div id="messagebox-text"></div></div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="toevoegen">
+			<div id="toevoegen-content">
+			<div id="title"><p>Land toevoegen</p></div>
+
+				<div id="oneThirdWidth">
+					<label>Landcode kort</label><br/>
+					<label>Landcode lang</label><br/>
+			    	<label>Land naam</label><br/>
+			    	<label>Hoofdstad</label><br/>
+			    	<label>Continent</label><br/>
+			    	<label>Regio</label><br/>
+			    	<label>Oppervlakte</label><br/>
+			    	<label>Populatie</label><br/>
+			    	<label>Regering</label><br/>
+			    	<label>Latitude</label><br/>
+			    	<label>Longtitude</label><br/>
+				</div>
+			
+			
+			
+				<div id="oneThirdWidth">
+					<form id="nieuw-land-form">
+						<input id="landcode-kort" type="text"></input>verplicht<br/>
+						<input id="landcode-lang" type="text"></input><br/>
+						<input id="land_naam" type="text"></input> verplicht<br/>
+						<input id="hoofdstad" type="text"></input> verplicht<br/>
+						<input id="continent" type="text"></input> verplicht<br/>
+						<input id="regio" type="text"></input><br/>
+						<input id="oppervlakte" type="text"></input> verplicht<br/>
+						<input id="populatie" type="text"></input> verplicht<br/>
+						<input id="regering" type="text"></input><br/>
+						<input id="latitude" type="text"></input> verplicht<br/>
+						<input id="longtitude" type="text"></input> verplicht<br/>
+					</form>
+				</div>
+				
+				
+				
+				<div id="oneThirdWidth">				
+					<p>Vul de benodigde land informatie links aan</p>
+					<div id="menu-form">
+						<div id="create-btn" onclick="createCountry();">Voeg land toe</div>
+					</div>
+				</div>		
+			</div>
+			
+
+	</section>
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+		
+
+	<section id="login">
+		<div id="title">Login pagina</div>
+		
+		<h1 style="color: black;">Inloggen</h1>
+		
+		<div id="login-container">
+			<div style="width: 60%; float: left; ">
+				<form id="login-form">
+					<label>Username</label><br/>
+					<input type="text" name="username"></input><br/>
+					<label>Password</label><br/>
+					<input type="password" name="password"></input><br/>
+					<input style="visibility: hidden;"></input><br/>
+				</form>
+			</div>
+			<div style="width: 40%; height: 147px; float: left; background-color: lightgray;">
+				<div id="login-form-button" onclick="userLogin();">
+					<p id="login-text">Login</p>
+				</div>	
+			</div>
+		</div>		
+		
+		
+	</section>
+
+
+
+	
+
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ <script src="script/countrymanage.js"></script>
+
+
+</body>
+ 		
+ 		
+	<!-- css -->
+		<link href="css/countrymanagement.css" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+
+
+</html>

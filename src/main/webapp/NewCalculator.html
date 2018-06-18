@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<title>JavaScript Rekenmachine</title>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/calculator.css">
+</head>
+<body>
+
+<div id="frame">
+    <div id="display"></div>
+    <button id="btn_7" onclick="updateDisplay(7)">7</button>
+    <button id="btn_8" onclick="updateDisplay(8)">8</button>
+    <button id="btn_9" onclick="updateDisplay(9)">9</button>
+    <button id="btn_div" onclick="bereken('/')">/</button>
+    <button id="btn_4" onclick="updateDisplay(4)">4</button>
+    <button id="btn_5" onclick="updateDisplay(5)">5</button>
+    <button id="btn_6" onclick="updateDisplay(6)">6</button>
+    <button id="btn_prod" onclick="bereken('*')">*</button>
+    <button id="btn_1" onclick="updateDisplay(1)">1</button>
+    <button id="btn_2" onclick="updateDisplay(2)">2</button>
+    <button id="btn_3" onclick="updateDisplay(3)">3</button>
+    <button id="btn_min" onclick="bereken('-')">-</button>
+    <button id="btn_clear" onclick="deleteDisplay()">C</button>
+    <button id="btn_0" onclick="">0</button>
+    <button id="btn_eq" onclick="berekenResultaat()">=</button>
+    <button id="btn_plus" onclick="bereken('+')">+</button>
+</div>
+<script src="script/calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,725 @@
+body{
+	background-color: coral;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#header{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 80px;
+ 	background-color: black; 
+	opacity: .8;
+}
+
+#header-txt{
+	margin-top: 1.8em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 80px;
+	font-size: 45px;
+	color: white;	
+}
+
+h1{
+	margin-top: 1em;
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	opacity: .8
+}
+
+#main-menu{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 200px;
+}
+
+#main-menu-whitespace{
+	float: left;
+	width: 20%;
+	height: 200px;
+}
+
+#main-menu-nav{
+	float: left;
+	width: 60%;
+	height: 200px;
+}
+
+
+
+#menu-box{
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 80px;
+}
+
+.menu-btn{
+	float: left;
+	width: 20%;
+	height: 80px;
+	background-color: white;
+	opacity: .5;	
+}
+
+.menu-btn:hover{
+	opacity: .9;
+	cursor: pointer;	
+}
+
+#button-text{
+	text-align: center;
+	font-size: 25px;
+	line-height: 80px;
+}
+
+
+
+#messagebox{
+	float: left;
+	margin-top: 40px;
+	margin-right: 20px; 
+	width: 18%;
+	height: 130px;
+	background-color: green;
+	opacity: .9;
+	text-align: left;
+	font-size: 25px;
+	color: black;
+}
+#messagebox-text{
+	color: black;
+}
+
+
+
+
+section{
+	margin-top: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 55vh;
+	background-color: white;	
+}
+
+
+#title{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 28px;
+	background-color: lightgray;
+	color: black;
+	border-bottom: 2px solid #76afff;
+/* 	background-color: #a8a8a8;
+	color: white; */
+	
+
+}
+
+#fiftyPercentWidth{
+	float: left;
+	width: 48.5%;
+	height: 48.5vh;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 16px;
+	text-align: left;		
+}
+
+#oneThirdWidth{
+	float: left;
+	margin-top: 20px;
+	width: 33.33333%;
+	height: 48.5vh;
+	background-color: white;
+	font-size: 16px;
+	text-align: left;
+}
+
+
+p{
+	margin-top: 0;
+	text-align: center;	
+}
+
+
+
+
+
+
+
+
+
+#par{
+	margin-top: 20px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+#home-img{
+	width: 200px;
+	height: 200px;
+	margin-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+#toevoegen-content{
+	float: left;
+	width: 59%;
+	height: 55vh;
+	border-right: 2px solid gray;
+}
+
+div#oneThirdWidth p{
+	margin-right: 30px;
+}
+
+label{
+	margin-left: 80px;
+}
+
+#menu-form{
+	margin-top: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 50px;
+	line-height: 15px;
+	background-color: #839CB5;
+	text-align: center;
+	font-size: 26px;
+	opacity: .9;
+}
+
+#menu-form:hover{
+	box-shadow: 2px 2px 2px gray;
+	opacity: .7;
+	cursor: pointer;
+}
+
+#create-btn{
+	line-height:50px;
+}
+
+#toegevoede-landen{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 39.85%;
+	height: 55vh;
+}
+
+#toegevoede-landen-content{
+	float: left;
+	width: 100%;
+	height: 46vh;
+}
+
+
+
+
+
+
+  
+  
+  
+  
+#search-container-left{
+ 	float: left;
+ 	width: 59.75%;
+ 	height: 55vh;
+} 
+ 
+
+#search-left{
+ 	float: left;
+ 	width: 59.75%;
+ 	height: 51vh;
+ 	border-right: 2px solid gray;
+ }
+ 
+  
+#search-left-top{
+ 	width: 100%;
+ 	height: 27vh;
+ 	border-bottom: 2px solid gray;
+ }
+ 
+#search-left-top-upper{
+	width: 100%;
+	height: 18vh;
+}
+
+#search-left-top-bottom{
+	position: relative;
+	width: 100%;
+	height:9vh;
+} 
+  
+#search-left-bottom{
+ 	width: 100%;
+ 	height: 27vh;
+ }
+ 
+#search-container-middle{
+	float: left;
+ 	width: 39.75%;
+ 	height: 51vh;
+ 	border-right: 2px solid gray;
+ }
+ 
+  
+#search-opgevraagde-landen{
+ 	float: left;
+ 	width: 100%;
+ 	height: 55vh;
+ 	
+ } 
+
+  
+#title2{
+ 	margin-top: 10px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 95%;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	font-size: 25px;
+ 	text-align: center;
+  	background-color: #a8a8a8;
+ 	color: white;
+ } 
+  
+#zoekopdracht{
+  	text-align: left;
+  	padding-left: 4.6em;
+  }
+  
+  
+#middle-container{
+  	margin-top: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 95%;
+  	height: 45vh;
+  }
+  
+#container-section{
+  	margin-bottom: 5px;
+  	width: 100%;
+  	height: 14.5vh;
+ 
+  
+  }
+
+#container-left{
+/* 	visibility: hidden;  */        /* weer weghalen als je ze wilt */
+  	float: left;
+  	width: 10%;
+  	height: 14.5vh;
+/*   	background-color: gray; */
+  	text-align: center;
+  	font-size: 25px;
+  	color: black;
+}
+
+#div-ul{
+	margin-top: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul li{
+	list-style: none;
+	margin-left: 60px;
+	font-size: 13px;
+}
+  
+  #container-right{
+/*     visibility: hidden; */         /* weer weghalen als je ze wilt */
+   	float: right;
+  	width: 10%;
+  	height: 14.5vh;
+/*   	background-color: gray; */
+  	text-align: center;
+  	font-size: 25px;
+  	color: black; 	
+  }
+  
+#sign{
+	margin-top: 55px;
+	text-align: center;	
+}
+
+#input-label{
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+	font-size: 25px;
+	color: gray;
+	
+}
+
+#search-input{
+	float: left;
+	width: 250px;
+	height: 30px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+#wat-zoek-je{
+	float: left;
+	margin-top: 35px;
+	margin-left: 10px;
+	font-size: 25px;
+	color: gray;
+}
+
+#zoek-btn{
+	position: absolute;
+	bottom: 30px;
+	left: 30%;
+	width: 35%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	background-color: 	#76afff;
+	cursor: pointer;
+}
+
+#container-opties{
+	width: 90%;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white; /* White text */
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+}
+
+#snelkeuze-btn{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	float: left;
+	width: 32%;
+	height: 50px;
+	background-color: #76afff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 22px;
+	opacity: .8;
+	cursor: pointer;
+}
+
+#snelkeuze-btn:hover{
+	opacity: 1;
+	box-shadow: 2px 2px 2px gray;
+}
+#zoek-btn:hover{
+	opacity: 1;
+	box-shadow: 2px 2px 2px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+#landen-info{
+	width: 100%;
+	height: 8vh;
+	border-bottom: 2px solid gray;
+}
+
+table {
+    border-collapse: collapse;
+    tabel-layout: fixed;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid white;
+    background-color: lightgray;
+    font-size: 13px;
+}
+th div,td div{
+	width: 100px;
+}
+
+th,td{
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:hover{
+	background-color: white;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#wijzig-links{
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+	heigth: 49vh;
+}
+
+
+#wijzig-links label{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: auto;
+	margin-top: 5px;
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	color: gray;
+}
+
+#wijzig-links input{
+	margin-left: 30px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 70%;
+	height: 20px;
+}
+
+
+#wijzig-rechts{
+	float: left;
+	margin-top: 20px;
+	width: 49%;
+	heigth: 49vh;
+}
+
+
+#wijzig-rechts label{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: auto;
+	margin-top: 5px;
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	color: gray;
+}
+
+#wijzig-rechts input{
+	margin-left: 30px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 70%;
+	height: 20px;
+}
+
+#land-bewerking-sectie{
+	float: left;
+	width: 40%;
+	height: 49vh;	
+}
+
+#land-container-omschrijving{
+	float: left;
+	width: 49.5%;
+	height: 50vh;
+}
+
+#land-label{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+#land-container-btns{
+	float: left;
+	width: 49.5%;
+	height: 50vh;
+}
+
+#land-bewerk-btn{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #76afff;
+	cursor: pointer;
+	font-size: 25px;	
+}  
+
+#land-bewerk-btn-doorvoeren{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: green;
+	cursor: pointer;
+	font-size: 25px;
+	opacity: .8;	
+}
+#land-bewerk-btn-verwijderen{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: red;
+	cursor: pointer;
+	font-size: 25px;
+	opacity: .8;	
+}
+  
+ #toegevoegde-landen-content{
+ 	overflow: auto;
+ 	margin-top: 50px;
+ 	width: 100%;
+ 	height: 51vh;
+ }
+ 
+
+ 
+ #response-country-name{
+ 	width: 100%;
+ 	height: 30px;
+ 	text-align: center;
+ 	font-size: 20px;
+ 	line-height: 30px;
+ 	background-color: lightgray;
+ 	border-bottom: 2px solid #76afff;
+ }
+ 
+ 
+ 
+ 
+
+
+
+
+#list-opties{
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	font-size: 15px;
+}
+
+#list-opties li{
+	padding-left: 70px;
+	font-weight: bold;
+
+}
+
+
+
+ #login-container{
+ 	margin-top: 40px;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 600px;
+ 	height: 150px;
+ 	background-color: lightgray; 	
+ 	
+ }
+ 
+ #login-form{
+ height: 150px;
+  
+ }
+ 
+ #login-form label,input{
+  	margin-top: 5px;
+ 	margin-left: 35px;
+ 	margin-right: auto;
+ 	width: 50%;
+ 	height: 20px;
+ 	text-align: left;
+ 	font-size: 18px;
+ 	
+ }
+ 
+#login-form-button{
+ 	width: 50%;
+ 	height: 45px;
+ 	margin-top: 67px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	background-color: #76afff; 
+ 	text-align: left;
+ 	opacity: .8;
+ 	cursor: pointer;	
+ }
+ 
+#login-form-button:hover{
+  	opacity:1;
+ }
+
+#login-form-button:hover #login-text{
+  	color: black;
+ } 
+ 
+ 
+ 
+ 
+ 
+#login-text{
+	margin-left: 10px;
+  	font-size: 25px;
+  	color: gray;
+ 	cursor: pointer;	
+}
+ 
+ 
+ 
+  

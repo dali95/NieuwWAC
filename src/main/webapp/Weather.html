@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <title>IP-API.com Geo Location Demo</title>
+
+
+		
+    </head>
+    <body>
+
+	<section class="section1">
+    
+	    
+	    <div class="content">
+	    <div class="titel">Mijn locatie  <a href='index.html'>Ga terug naar het overzicht</a></div>
+	    	<div class="left">   
+		    	<label>landcode</label><br/>
+		    	<label>land</label><br/>
+		    	<label>regio</label><br/>
+		    	<label>stad</label><br/>
+		    	<label></label><br/>
+		    	<label>postcode</label><br/>
+		    	<label>latitude</label><br/>
+		    	<label>longtitude</label><br/>
+		    	<label>ip</label>
+	    	</div>
+	    	<div class="right">
+		    	<label id="landcode"></label><br/>
+		    	<label id="land"></label><br/>
+		    	<label id="regio"></label><br/>
+		    	<label id="stad"></label><br/>
+		    	<label id="postcode"></label><br/>
+		    	<label id="lat"></label><br/>
+		    	<label id="lon"></label><br/>
+		    	<label id="ip"></label><br/>
+	    	</div>
+	    </div>
+
+
+	</section>
+    
+    
+      
+        <section class="section2">
+
+			<div id="messagebox" style="display: none;"><div id="messagebox-text" ></div></div>
+
+			<div class="content">
+	    <div class="titel">Het weer in <label id="location"></label></div>
+	    <div class="left">   
+		    	<label>Temperatuur</label><br/>
+		    	<label>Luchvochtigheid</label><br/>
+		    	<label>Windsnelheid</label><br/>
+		    	<label>Windrichting</label><br/>
+		    	<label>Zonsopgang</label><br/>
+		    	<label>Zonsondergang</label><br/>
+	    	</div>
+	    	<div class="right">
+		    	<label id="temperatuur"></label><br/>
+		    	<label id="luchvochtigheid"></label><br/>
+		    	<label id="windsnelheid"></label><br/>
+		    	<label id="windrichting"></label><br/>
+		    	<label id="zonsopgang"></label><br/>
+		    	<label id="zonsondergang"></label><br/>
+	    	</div>  	
+	    </div>
+
+		</section>
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<div class="ad-left">
+			<label>Code</label><br/>
+			<input id="input-landcode" class="code" type="text" name="landcode" readonly></input><br/>
+
+			<label>ISO3</label><br/>
+			<input id="intput-hidden" class="code" type="text" name="landcode" readonly></input><br/>
+
+			<label>Landnaam</label><br/>
+			<input id="input-naam" type="text" name="landcode"></input><br/>
+
+			<label>Hoofdstad</label><br/>
+			<input id="input-hoofdstad" type="text" name="land_naam"></input><br/>
+
+			<label>Lat</label><br/>
+			<input id="input-lat" type="text" name="land_naam"></input><br/>
+
+			<label>Lon</label><br/>
+			<input id="input-lon" type="text" name="land_naam"></input><br/>
+			</div>
+				<div class="ad-right">
+
+				<label>Regio</label><br/>
+			<input id="input-regio" type="text" name="hoofdstad"></input><br/>
+
+			<label>Oppervlakte</label><br/>
+			<input id="input-oppervlakte" type="text" name="continent"></input><br/>
+
+			<label>Inwoners</label><br/>
+			<input id="input-inwoners" type="text" name="regio"></input><br/>
+
+			<label>Regering</label><br/>
+			<input id="input-regering" type="text" name="regio"></input><br/>
+
+			<label>Continent</label><br/>
+			<input id="input-continent" type="text" name="regio"></input><br/>
+
+				<input type="button" value="Wijzig" style="margin-top: 5px" onclick="countryWijzig();">
+		</div>
+
+	</div>
+	</div>
+        <section class="section3">
+
+
+			<div style="overflow-x:auto;">
+ 			<table id="countrylist" >
+	 			<tr>
+					<th>Select</th>
+	 				<th>Land</th>
+	 				<th>Hoofdstad</th>
+	 				<th>Regio</th>
+	 				<th>Oppervlakte</th>
+	 				<th>Inwoners</th>
+					<th>Delete</th>
+					<th>Wijzig</th>
+				</tr>
+			</table>
+			</div>
+		</section>
+    
+    
+    
+
+        
+        
+</body>
+    
+	<!-- script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="script/weather.js"></script>
+
+	<!-- css -->
+		<link href="css/weather.css" rel="stylesheet" type="text/css"/>
+
+</html>
