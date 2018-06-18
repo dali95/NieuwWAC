@@ -14,30 +14,52 @@ $(document).ready(function(){
 
 
 function initPage() {
+    $.get("https://api.ipdata.co", function (response) {
+        $("#response").html(JSON.stringify(response, null, 4));
+        document.getElementById("landcode").innerHTML = response.country_code;
+        document.getElementById("land").innerHTML = response.country_name;
+        document.getElementById("regio").innerHTML = response.continent_name;
+        document.getElementById("stad").innerHTML = "<div class=\"stad\" onclick= 'weather(\"" + response.latitude + "\", \"" + response.longitude + "\", \"" + "Utrecht" + "\");'>" + "Utrecht"+ "</div>";
+        document.getElementById("postcode").innerHTML = "code: " + "3551XB";
+        document.getElementById("lat").innerHTML = response.latitude;
+        document.getElementById("lon").innerHTML = response.longitude;
+        document.getElementById("ip").innerHTML = response.ip;
+        $('#location').append("Utrecht");
 
-    $.getJSON("http://ip-api.com/json/?callback=?", function (data) {
 
 
+        weather(response.latitude, response.longitude, "Utrecht");
+
+
+        loadCountries();
+    }, "jsonp");
+
+/*    $.getJSON("http://ip-api.com/json/?callback=?", function (data) {*/
+
+/*
         document.getElementById("landcode").innerHTML = data.countryCode;
+*/
+/*
         document.getElementById("land").innerHTML = data.country;
-        document.getElementById("regio").innerHTML = data.region;
+*/
+/*        document.getElementById("regio").innerHTML = data.region;
         document.getElementById("stad").innerHTML = "<div class=\"stad\" onclick= 'weather(\"" + data.lat + "\", \"" + data.lon + "\", \"" + data.city + "\");'>" + data.city + "</div>";
         document.getElementById("postcode").innerHTML = "code: " + data.zip;
         document.getElementById("lat").innerHTML = data.lat;
         document.getElementById("lon").innerHTML = data.lon;
-        document.getElementById("ip").innerHTML = data.query;
+        document.getElementById("ip").innerHTML = data.query;*/
 
 
-        $('#location').append(data.city);
+   /*     $('#location').append(data.city);
 
 
 
         weather(data.lat, data.lon, data.city);
 
 
-        loadCountries();
+        loadCountries();*/
 
-    }, "json");
+  /*  }, "json");*/
 }
 
 
