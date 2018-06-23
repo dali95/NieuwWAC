@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 
 function initPage() {
-    $.get("https://api.ipdata.co", function (response) {
+    $.get("https://api.ipdata.co/?api-key=2a2d1cb93ac516a1c9349dd0498246245e69cd6bf29f616c725819ab", function (response) {
         $("#response").html(JSON.stringify(response, null, 4));
         document.getElementById("landcode").innerHTML = response.country_code;
         document.getElementById("land").innerHTML = response.country_name;
